@@ -14,7 +14,5 @@ func RemoveDuplicates(nums []int) int {
 func main() {
 	nums := []int{1, 1, 2}
 	size := RemoveDuplicates(nums)
-	for i := 0; i < size; i++ {
-		print(nums[i])
-	}
+	println(size)
 }
