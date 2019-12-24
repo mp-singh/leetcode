@@ -14,10 +14,7 @@ func lengthOfLastWord(s string) int {
 		}
 	}
 	if indexOfLastSpace == 0 {
-		if s != "" {
-			return len(s)
-		}
-		return 0
+		return len(s)
 	}
 	return len(s[indexOfLastSpace+1:])
 }
